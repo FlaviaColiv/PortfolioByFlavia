@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flávia Oliveira - Desenvolvedora FrontEnd e Game Designer</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">FO</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Apresentação e Foto 1 -->
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🐦,</p>
+          <h1>Sou Flávia Oliveira</h1>
+          <h2>Desenvolvedora FrontEnd</h2>
+
+          <div class="redes-sociais redes-superior">
+            <a href="https://www.linkedin.com/in/flavia-oliveira-dev/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="https://wa.me/5571983628135" class="outer-shadow"><i class="fab fa-whatsapp"></i></a> -->
+            <a href="https://github.com/FlaviaColiv" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/img2-1.jpg" alt="foto do perfil da Flavia" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Mim -->
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/img1-2.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Flávia Conceição Oliveira e sou um desenvolvedora Full Stack e Game Design, em
+              formação! </strong>
+          </p>
+          <p>
+              Gosto MUITO da área de tecnologia 💜 
+          </p>
+          <p>
+              Estou sempre me desafiando com novos projetos. 😁
+          </p>
+          <p>
+              Possuo um raciocínio Lógico, Analítica, Investigativo 🕵️‍♀️ e visão Sistêmica 🌎.
+          </p>
+          <p>
+              Ah, gosto de jogos, filmes e 🫰doramas. 💜
+          </p>
+          <p>
+            Amo meus fiozinhos brancos!!! 👩‍🦳
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="./src/pdf/Curriculo_Flávia_Conceição_Oliveira_Dev_FrontEnd_10_23.pdf" class="botao outer-shadow">Veja meu CV</a>
+            <a target="_blank" href="./src/maisSobreMim.html#minha-trajetoria" class="botao outer-shadow">Minha Trajetória</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <!-- <p>Tenho uma boa base de JS. Já entendo bem conceitos como callbacks, promisses, away, dentre outros.</p> -->
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p> -->
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p> -->
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p> -->
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listagem dos projetos -->
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com/FlaviaColiv/Projeto-Mario-BROS--DEVQUEST.git">
+            <img src="./src/imagens/super-mario-chars2.png" alt="superMarioFilme" />
+            <h3>Projeto Filme Super Mario</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="./pages/mundo-da-arte.html">
+            <img src="./src/imagens/ARTE/1-2.jpg" alt="mundoDaArte" />
+            <h3>Meu Desenvolvimento Artístico</h3>
+            <div class="informacoes-projeto">          
+              <p>Dos rabiscos à arte final e seus processos.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">        
+          <a href="./pages/arte-e-codigo.html">
+            <img src="./src/imagens/ARTE-CODIGO/1-6.png" alt="mundoDaArte" />
+            <h3>Arte e Programação</h3>
+            <div class="informacoes-projeto">          
+              <p>Do código mais simples à arte mais sublime - PROCESSOS.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+ <!--
+        <div class="projeto">     
+          <a href="https://github.com">
+            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p> -->
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/flavia-oliveira-dev/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <!-- <a href="https://wa.me/5571983628135" class="outer-shadow"><i class="fab fa-whatsapp"></i></a> -->
+        <a href="https://github.com/FlaviaColiv" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+        
+      </div>
+    </div>
+
+    <div id="sfcja91uwpewpsy5f8uywhs49nuas95k5my"></div><script type="text/javascript" src="https://counter4.optistats.ovh/private/counter.js?c=ja91uwpewpsy5f8uywhs49nuas95k5my&down=async" async></script><br><a href="https://www.webcontadores.com"></a><noscript><a href="https://www.webcontadores.com" title="contador de visitas"><img src="https://counter4.optistats.ovh/private/webcontadores.php?c=ja91uwpewpsy5f8uywhs49nuas95k5my" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
+  </footer>
+</body>
+
+</html>
