@@ -1,0 +1,58 @@
+{
+    "workbench.colorTheme": "Over Night Owl",
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.colorDecoratorsLimit": 1000,
+    "editor.guides.bracketPairs": "active",
+
+    "editor.letterSpacing": 0.2,
+    "editor.scrollbar.verticalScrollbarSize": 14,
+    "debug.console.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "chat.editor.fontSize": 14,
+    "markdown.preview.fontSize": 14,
+
+    "editor.tabSize": 2,
+
+    "window.zoomLevel": -0.6,
+    "editor.fontWeight": "normal",
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
+
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#1f4190a4",
+        "statusBar.border": "#c8a2e5",
+        "sideBar.background": "#0a1d32cd",
+        "activityBar.background": "#c8a2e5"
+        
+
+    },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#9e8599",
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        }
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "eq-material-theme-icons-light"
+
+    
+}
