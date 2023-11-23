@@ -5,11 +5,13 @@
     --cor-fundo-escuro: #810b3a; 
     --cor-fundo-transparente: #fbb6d8ae; 
     --cor-fundo-cinza-escuro: #000000;
-    --cor-fundo-cinza-claro: #aa8ab1bc;    
+    --cor-fundo-cinza-claro: #aa8ab1bc; 
+    --cor-cursos: #aa8ab1bc;   
   }
     
   :root {
-    --fonte-primaria: 'Poppins', sans serif;
+    /* --fonte-primaria: 'Poppins', sans serif; */
+    --fonte-primaria: 'Crimson Pro', serif;
     --fonte-secundaria: 'Gloock', serif;
     --fonte-gigante: 4.5rem;
     --fonte-extra-grande: 3rem;

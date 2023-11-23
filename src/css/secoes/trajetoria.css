@@ -1,0 +1,35 @@
+.section{
+  padding: 8px;
+  width: 100%;
+  /* max-width: 350px; */
+  margin: 24px auto;
+  border-box: border-box;
+}
+
+.section__titulo {
+  font-size: 27px;
+  font-weight: 400;
+  color: var(--cor-branca);
+  margin: 16px 0;
+}
+.curso {
+  background-color: var(--cor-cursos);
+  padding: 8px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.curso__titulo {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--cor-primaria);
+  margin: 8px 0;
+}
+
+.curso__descricao {
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 8px 0;
+}

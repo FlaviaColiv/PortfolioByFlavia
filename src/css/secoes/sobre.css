@@ -36,6 +36,15 @@
     font-size: 2rem;
 }
 
+.img-sobre-mim {
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+.curso__link:hover {
+    opacity: 0.65;
+}
+
 @media(max-width: 3000px) { 
      .sobre-mim .row{
         justify-content: center;
