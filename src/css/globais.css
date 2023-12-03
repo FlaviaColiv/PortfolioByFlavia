@@ -20,6 +20,17 @@ body {
     font-size: var(--fonte-normal);
 }
 
+.informacoes .imagem-sobre-mim a {
+    margin-left: 4.5px;
+}
+  
+.imagem-sobre-mim a:hover {
+    background-color: var(--cor-a);
+    padding: 2px 5px;
+    border-radius: 1rem;
+    /* color: var(--cor-primaria); */
+}
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -65,7 +76,7 @@ body {
   
 .redes-sociais a:hover {
     background-color: var(--cor-primaria);
-    /* color: var(--cor-primaria); */
+    color: var(--cor-primaria);
 }
   
 .outer-shadow {
