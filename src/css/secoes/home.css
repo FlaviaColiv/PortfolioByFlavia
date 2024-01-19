@@ -44,6 +44,12 @@
     border: 10px solid transparent;
 }
 
+.home .img-home .img-box video {
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid transparent;
+}
+
 .home .texto-home p {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-grande);

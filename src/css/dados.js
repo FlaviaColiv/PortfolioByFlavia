@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Espera o DOM ser totalmente carregado antes de executar o script
 
     // Seleciona um elemento pelo ID e adiciona texto
-    document.getElementById("minhaIdade").innerText = "Sou Flávia Conceição Oliveira, em julho completo  " + idade + " anos, sou uma desenvolvedora Full Stack && Game Designer, em formação!"
+    document.getElementById("minhaIdade").innerText = "Sou Flávia Conceição Oliveira, em julho completo  " + idade + " anos, sou uma desenvolvedora Full Stack, Game Designer [em formação] && Técnica em Química!"
 ;
 });
 
